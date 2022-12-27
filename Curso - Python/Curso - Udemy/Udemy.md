@@ -1,4 +1,4 @@
-### Aula While 34 - 
+### Aula While 34 - 42
 ## While, break e continue
 - while: executa uma ação enquanto uma condição for verdadeira.
 - break: quebra o laço / termina.
