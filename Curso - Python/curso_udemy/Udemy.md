@@ -97,7 +97,6 @@ FEITO
 
 ### Aula 21
 ## Operadores Lógicos (and, or e not)
-and precisa de mais de uma coisa para checar,
 - and: usado para checar mais de uma condição, caso qualquer valor for falso, tudo sera considerado falso.
 - falsy: 0, 0.0 e ' ', valores falsos.
 - None: um não valor.
