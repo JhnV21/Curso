@@ -1,6 +1,6 @@
-nome = 'Mateus'
-altura = 1.91
-peso = 110
+nome = 'João'
+altura = 1.75
+peso = 70
 imc = peso / (altura * altura)
 
 print(nome, 'tem', altura, 'de altura,')

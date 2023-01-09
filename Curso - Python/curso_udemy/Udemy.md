@@ -53,7 +53,56 @@ FEITO
 
 ### Aula 10
 ## Concatenação e repetição com operadores aritméticos
-concatenação somente com strings para unir valores
+concatenação somente com strings para unir valores.
+
+### Aula 12
+## Exercicio
+FEITO
+
+### Aula 13
+## Introdução a F-Strings
+sempre que tiver f atras de strings, é uma F-String
+- :.2f: casas decimais.
+
+### Aula 14
+## Formatação de strings com método format
+quando uma função esta dentro de um objeto, ela é chamada de método
+
+
+### Aula 15
+## Como usar Input
+- input: é um função que pergunta dados ao usuario.
+
+### Aula 16 - 18
+## if, elif e else + debugger do vscode
+ELIF e ELSE dependem do IF, o único que pode ficar sozinho é o IF.
+- if: só executa se a condição for verdadeira.
+- elif: só executa se o if for falso e a condição do elif for verdadeira.
+- else: só executa se a condição for falsa.
+
+elif pode ser usado quantas vezes quiser.
+
+### Aula 19
+## Operadores de comparação
+- (>): checa se é maior
+- (>=): checa se é maior ou igual
+- (<): checa se é menor
+- (<=): menor ou igual
+- (= ou ==): checa se é igual
+- (!=): checa se é diferente
+
+### Aula 20
+## Exercicio
+FEITO
+
+### Aula 21
+## Operadores Lógicos (and, or e not)
+and precisa de mais de uma coisa para checar,
+- and: usado para checar mais de uma condição, caso qualquer valor for falso, tudo sera considerado falso.
+- falsy: 0, 0.0 e ' ', valores falsos.
+- None: um não valor.
+
+
 
 
 ### Aula While 34 - 42
