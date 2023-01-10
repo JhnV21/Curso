@@ -1,3 +1,5 @@
+# Anotações Python Udemy - Luiz Otávio
+
 ### Aula 1
 ## Comentários e DocStrings
 - Tudo que esta depois da (#) é um comentário somente na mesma linha.
@@ -95,11 +97,50 @@ elif pode ser usado quantas vezes quiser.
 ## Exercicio
 FEITO
 
-### Aula 21
-## Operadores Lógicos (and, or e not)
+### Aula 21 - 24
+## Operadores Lógicos (and, or, not, in e not in)
 - and: usado para checar mais de uma condição, caso qualquer valor for falso, tudo sera considerado falso.
 - falsy: 0, 0.0 e ' ', valores falsos.
 - None: um não valor.
+- or: contrario do and, qualquer condição que for verdadeira, tudo sera considerado verdadeiro
+- not: inverte expressões, oque for True é False, oque for False é True.
+- in: checa se algo esta na variavel.
+- not in: contrario de "in", checa se algo não esta na variavel.
+
+### Aula 25
+## Interpolação básica de strings
+- %: utilizada com tipos. exemplos: s - string, f - float. %s e %f
+
+### Aula 26
+## Formatação básica de strings
+para preencher caracteres utilizar
+- >: preenche caracteres a esquerda
+- <: preenche caracteres a direita
+- ^: centraliza 
+- =: força o número a aparecer antes dos zeros 
+
+### Aula 27
+## Fatiamento de Strings
+- [i:f:p]: utilizar [::] para ir ao indice
+- len: conta os caracteres da string(conta os espaços também).
+
+### Aula 28
+## Exercicio
+FEITO
+
+### Aula 29
+## Introdução ao try/except
+- try: tenta executar o código e qualquer tipo de erro ele captura e voce faz algo.
+- isdigit: checa se o usúario digitou apenas números.(retorna bool)
+
+
+### Aula 30 - 31
+## Variáveis, constantes e complexidade de código
+- CONSTANTE: qualquer coisa que não for pra mudar colocar em letras maiusculas.
+
+
+
+
 
 
 
