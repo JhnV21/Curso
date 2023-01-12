@@ -151,7 +151,7 @@ FEITO
 - tipos imutaveis: str, int, float, bool...
 - zfill: preenche com zeros
 
-## Aula While 34 - 42
+## Aula 34 - 42
 ### While, break e continue
 - while: executa uma ação enquanto uma condição for verdadeira.
 - break: quebra o laço / termina.
@@ -160,3 +160,24 @@ FEITO
 - continue: pula/ignora valor determinado
 - break e continue são usados para o while mais proximo deles.
 
+## Aula 43 - 46
+###  Introdução ao for / in - estrutura de repetição para coisas finitas
+- for: utilizado quando se conhece o inicio meio e fim, while utilizado para quando nao se sabe quantos repetições vao ter.
+- range: retorna uma sequencia de números, iniciando do 0 e aumentando em 1, e para antes em um numero especificado.
+- iter: entrega o objeto iterador.
+- next: chama o próximo valor que estiver disponivel dentro do iter. Quando esgotam os valores um erro é levantado
+- duplo "_": conhecido como dunder.
+
+## Aula 47
+### Exercicio
+FEITO
+
+## Aula 48
+### Listas em Python
+- list: literalmente uma lista, usar "[]" para criar uma lista, a lista suporta varios valores de qualquer tipo.
+- append: Adiciona um item ao final
+- insert: Adiciona um item no índice escolhido
+- pop: Remove do final ou do índice escolhido
+- del: apaga um índice
+- clear: limpa a lista
+- extend: estende a lista
