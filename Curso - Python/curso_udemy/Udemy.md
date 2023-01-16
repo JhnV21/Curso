@@ -181,3 +181,24 @@ FEITO
 - del: apaga um índice
 - clear: limpa a lista
 - extend: estende a lista
+
+## Aula 50 
+### Exercicio
+FEITO
+
+## Aula 51
+### Intodução ao desempacotamento
+- utilizar "_" para fazer o resto dos valores em uma lista
+
+## Aula 52
+### Tuples
+- usar tupla no lugar da lista, para quando nao for alterar nada na lista.
+- nao colocar colchetes se cria um tuple ou utilizar "()".
+- tuples: são listas imutaveis
+
+## Aula 53
+### Enumerate
+- enumerate: enumera minha lista
+
+## Aula 54
+### Exercicio
