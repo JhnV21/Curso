@@ -4,7 +4,7 @@ o preço de um produto e mostre
 seu novo preço, com 5% de desconto.
 '''
 
-preco_sem_desconto = int(input('Digite o preço sem desconto: '))
+preco_sem_desconto = float(input('Digite o preço sem desconto: '))
 desconto = (preco_sem_desconto * 5)/100
 preco_com_desconto = preco_sem_desconto - desconto
 

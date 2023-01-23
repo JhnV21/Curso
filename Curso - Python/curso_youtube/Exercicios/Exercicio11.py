@@ -11,6 +11,6 @@ parede_largura = int(input('Digite a largura da parede em metros: '))
 area_parede = parede_altura * parede_largura
 quantidade_tinta = area_parede / 2
 
-print(quantidade_tinta)
+print(f'Sua parede tem a dimensão de {parede_altura}x{parede_largura} e sua área é {area_parede}m², a quantidade de tinta sera: {quantidade_tinta} litros')
 
 
