@@ -6,7 +6,7 @@
 
   bool() --> Armazena True ou False --------True, False
 
-  str() ----> Conjunto de caracteres -------- 'narigudo', 'Pedro', 'feioso'
+  str() ----> Conjunto de caracteres -------- 'fraco', 'teste', 'boa'
 
   type() ---> Indica o tipo primitivo da var -  x = 'Sapo Tunado'   print(type(x)) logo seu tipo primitivo é string
 
@@ -68,7 +68,9 @@
   frase[9:18:2]--> Pega os caracteres das posições indicadas pulando 2 - EDNOA
   len() -------------> Mostra quantas letras tem a frase -------------------------------- len(frase) = 38 letras
   count() ---------> Conta quantas vezes aparece a letra escolhida ----------- frase.count('s')
-  find() ------------> Procura os caracteres escolhido ---------------------------------- frase.find('aprendendo')
+  find() ------------> Procura os caracteres 
+  variaçoes do find: rfind começa a procurar da direita.
+  escolhido ---------------------------------- frase.find('aprendendo')
   replace() ------> Troca uma palavra por outra na frase --------------------------- frase.replace('python','JavaScript')
   upper() ---------> Colocar todas as outras letras em maiúsculo -------------- frase.upper()
   lower() ---------> Colocar todas as outras letras em minusculo -------------- frase.lower()
