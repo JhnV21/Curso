@@ -70,5 +70,17 @@
 
 ## Condições
 - if: se a condição for verdadeira ira executar o IF
+- elif: é o if + else
 - else: se a condição for falsa ira executar o ELSE
 - condição simplificada: ex: print('carro novo' if tempo<=3 else'carro velho')
+- condição aninhada: é uma estrutura condicional dentro de outra
+- pode se utilizar quantos ELIF's quiser dentro de um IF.
+- 
+
+
+## Aula Extra - Cores no Terminal
+- ANSI: \033[       m -- todo inicio de codigo ansi para cores no python.
+- entre os colchetes e o M colocar primeiro codigo para estilo, codigo de texto, e codigo de fundo sempre entre os codigos colocar ;.
+- Codigos para estilo: 0, 1, 4 e 7 --- 0 é nada, 1 é negrito, 4 sublinhado e 7 inverte as config. oq vai pra letra vai pro fundo e oq vai pro fundo vai pra letra.
+- Codigos de texto: 30 branco, 31 vermelho, 32 verde, 33 amarelo, 34 azul, 35 roxo, 36 azul claro e 37 cinza.
+- Codigos de Fundo: vai de 40 a 47 com as mesmas cores e as mesmas ordens das cores de codigo de texto.
