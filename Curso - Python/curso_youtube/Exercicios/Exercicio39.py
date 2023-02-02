@@ -15,8 +15,10 @@ data_atual = date.today().year
 idade = data_atual - nascimento
 
 if idade <= 17:
-    print(f'Voce ainda vai se alistar')
+    saldo = 18 - idade
+    print(f'Voce ainda vai se alistar, faltam {saldo} ano(s).')
 elif idade == 18:
     print('Voce esta no prazo de alistamento, se aliste JÁ!!!')
 else:
-    print('Voce ja passou do tempo do alistamento.')
+    saldo = idade - 18
+    print(f'Voce ja passou do tempo do alistamento, deveria ter se alistado a {saldo} ano(s).')
