@@ -4,12 +4,8 @@ mostre a média entre todos os valores e qual foi o maior e o menor valores lido
 O programa deve perguntar ao usuario se ele quer ou não continuar a digitar valores.
 '''
 
-numeros_digitados = 0
-numeros = 0
-soma = 0
-media = 0
-maior = 0
-menor = 0
+numeros_digitados = soma = media = maior = menor = 0
+
 continuar = 'S'
 
 while continuar == 'S':
@@ -18,12 +14,11 @@ while continuar == 'S':
     numeros_digitados += 1
     soma += numeros
     if numeros_digitados == 1:
-        maior = numeros
-        menor = numeros
+        maior = menor = numeros
     else:
         if numeros > maior:
             maior = numeros
         if numeros < menor:
             menor = numeros
 media = soma / numeros_digitados
-print(f'O maior número é {maior} e o menor é {menor},\n a média entre todos os números digitados é {media:.1f}')
+print(f'O maior número é {maior} e o menor é {menor},\na média entre todos os números digitados é {media:.2f}')

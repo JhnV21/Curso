@@ -11,3 +11,9 @@ while sexo != 'M' and sexo != 'F':
         print('Tente novamente, Digite [M/F] para validar: ')
     else:  ### CASO FOR CERTO ELE REGISTRA.
         print(f'Registro feito com Sucesso')
+
+### RESPOSTA PROFESSOR
+# sexo = input('Informe seu sexo: [M/F] ').strip().upper()[0]
+# while sexo not in 'MmFf':
+#     sexo = input('Dados invalidos. Por favor, informe seu sexo: ').strip().upper()[0]
+# print(f'Sexo {sexo} registrado com sucesso')
