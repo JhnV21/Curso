@@ -34,3 +34,10 @@ print(f'O produto mais barato é {lista[mais_barato]} custou \033[32mR$\033[m{mi
 # O .APPEND ADICIONA CADA ITEM ESCRITO NA VARIAVEL NOME DENTRO DA LISTA
 # LISTA PARA DEFINIR OS PREÇOS, PARA SABER O MAIS BARATO = barato[]
 # LISTA PARA ADICIONAR OS PRODUTOS = lista[]
+
+### RESOLUÇÃO PROFESSOR
+# cont = 0
+# cont += 1
+# if cont == 1 or preco < menor:
+#     menor = preco
+#     barato = produto

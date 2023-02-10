@@ -13,11 +13,10 @@ continuar = 'S'
 while continuar == 'S':
     idade = int(input('Digite sua Idade: '))
     sexo = int(input('[1] - Homem\n[2] - Mulher\nEscolha seu sexo: '))
-    if sexo == 1 and idade >= 18:
+    if idade >= 18:
+        mais_18 += 1
+    if sexo == 1:
         homens += 1
-        mais_18 += 1
-    if sexo == 2 and idade >= 18:
-        mais_18 += 1
     if sexo == 2 and idade < 20:
         menos_20 += 1
     continuar = input('Quer Continuar? [S/N] ').upper()

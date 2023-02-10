@@ -44,3 +44,21 @@ while True:
             break
     
 print(f'Ganhou {v}x seguidas.')
+
+
+
+### RESOLUÇÃO PROFESSOR SIMPLIFICADA
+# if p_i == 'P':
+#     if s % 2 == 0:
+#         print('Voce VENCEU')
+#         v += 1
+#     else:
+#         print('Voce PERDEU')
+#         break
+# elif p_i == 'I':
+#     if s % == 1:
+#         print('Voce VENCEU')
+#         v += 1
+#     else:
+#         print('Voce PERDEU')
+#         break
