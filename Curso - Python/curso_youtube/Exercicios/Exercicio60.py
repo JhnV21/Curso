@@ -19,7 +19,7 @@ n = int(input('Digite um número para calcular seu Fatorial: ')) # n é = ao fat
 c = n # C é = ao contador q é igual ao N
 f = 1 # 
 print(f'Calculando {n}! = ', end='')
-while c > 0: # Enquanto C for menor que 0, o WHILE É TRUE.
+while c > 0: # Enquanto C for maior que 0, o WHILE É TRUE.
     print(f'{c}', end='') # CONTADOR DE LADO
     print(' x ' if c > 1 else ' = ', end='') # x ENTRE OS NUMEROS DO CONTADOR
     f *= c # CALCULO DE TODOS OS NUMEROS DO FATORIAL
